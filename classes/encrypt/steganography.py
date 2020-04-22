@@ -28,9 +28,9 @@ def decode_image(file_location):
         # Loop over the range of y_size (`y`)
         for y in range(y_size):
             # Get RGB values from red_channel via `getpixel(x, y)`
-            r,g,b = red_channel
+            r,g,b = red_channel.getpixel((x,y))
 
-​    
+​
 
 
 
